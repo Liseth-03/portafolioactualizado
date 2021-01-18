@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  height: 560px;
+  padding-left: 20px;
+  padding-right: 20px;
+  max-width: 100%;
+  background-color:white;
+  font-family:Espera-Bold;
+}
+
+
+
+
+
+#header{
+  margin: auto; 
+  font-family: Arial, Helvetica, sans-serif;
+}
+ul, ol{
+  list-style: none;
+}
+.nav li a{
+  background-color: black;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 15px;
+  display: block;
+}
+.nav li{
+  float: left;
+}
+.nav li ul{
+  display:none;
+  position: absolute;
+  min-width: 140px;
+}
+.nav li:hover >ul{
+  display: block;
+}
+
+
+.container{
+	
+	width: 85%;
+	max-width: 850px;
+	margin: 0 auto; 
+}
+
+.nav li ul{
+  display:none;
+  position: absolute;
+  min-width: 140px;
+}
+
+.nav li a{
+  background-color: black;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+
+
+.header{
+  box-shadow: inset 0 0 20px rgba(0, 247, 255, 0.801), 0 0;
+  z-index: 999;
+	padding: 2rem;
+	background-color: black;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+}
+.header a{
+	color: aliceblue;
+	text-decoration: none;
+}
+
+.logo{
+	width: 15%;
+
+}
+.logo-nav-container{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+.navigation ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.navigation ul li{
+	display: inline-block;
+}
+
+.navigation ul li a {
+	border-radius: 5px;
+	transition: all 0.4s linear;
+	display: block;
+	padding: 0.5rem 1rem;
+
+}
+.navigation ul li a:hover {
+  box-shadow: inset 0 0 20px rgba(0, 247, 255, 0.801), 0 0;
+	background:#7F3BEB;
+}
+
+.main{
+	padding-top: 12rem;
+}
+
+img{
+	width: 50%;
+}
+
+
+
+/*antes estaba enlazado con 4 */ 
+
+.titulo{
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 135px;
+  height: 40px;
+  
+}
+.titulo1{
+  margin-top: 5px;
+  color:black;
+  font-size: 30px;
+}
+
+.cajaprincipal{
+  display: flex;
+  padding:10px;
+  border-color:white;
+  height: 480px;
+}
+.cajapasatimepos{
+  border-style: solid;
+  border-image-source: linear-gradient(#43ebc6,#7F3BEB, #43ebc6);
+  border-image-slice: 20;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+
+  background-color:  white;
+  height: 470px;
+}
+
+.cajapasatimepos2{
+  border-style: solid;
+  border-image-source: linear-gradient(#43ebc6,#7F3BEB, #43ebc6);
+  border-image-slice: 20;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+  background-color:  white;
+  height: 470px;
+}
+.primarios{
+  margin-top: 10px;
+  text-align: center;
+  color: black;
+}
+.textopasatiempos{
+  color: black;
+  margin-left: 20px;
+  margin-top:30px;
+}
