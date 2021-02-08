@@ -5,6 +5,7 @@
 }
 
 body{
+  background-color: cyan;
   max-width: 100%;
   height: 200px;
   font-family:Espera-Bold;
@@ -123,26 +124,27 @@ img{
 
 
 .inicio{
+  margin-top: 90px;
+  display: flex;
+  align-items: center;
   height: 550px;
-  background-color: black;
+  background-color:black;
 }
 .banner{
- opacity: 50%;
-  margin-top: 150px;
+  display:flex;
+  justify-content: center;
+  opacity: 50%;
+  margin-top:50px;
   position: absolute;
   width: 100%;
   height: 400px;
 }
 .nombre {
-  
   position: absolute;
-
-  
-  margin-left: 0px;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 200px;
+  margin-top: 15%;
   height: 300px;
   color:white;
    
@@ -156,20 +158,19 @@ h1{
 le doy medidas a la caja que contiene la foto PILAS*/
 
 .foto{
-  margin-left: 750px;
-  margin-top: 100px;
+  margin-left: 60%;
+  margin-top: 7%;
   display: flex;    
   align-content: center;
   justify-content: center;
-  height: 500px;
+  height: 90%;
    
 }
 .foto1{
-
-  margin-top: 0px;
+  border-radius: 40%;
+  margin-top: 5%;
   display: flex;
-  padding: 0px;
-  width: 80%;
+  width: 85%;
   height: 400px; 
     
 }
@@ -179,35 +180,37 @@ le doy medidas a la caja que contiene la foto PILAS*/
  
 
 .caja1{
+  margin-top: 600px;
   display: flex;
-  margin-left: 15px;
   position: absolute;
-  background-color:rgb(255, 255, 255);
+  background-color:black;
   height: 500px;
 }
 .descripcion{
   border-radius: 80px;
   margin-top: 50px;
   height: 400px;
-  background-color:#fff;
+  background-color:black;
 }
 .descripcion2{
   display: flex;
+  justify-content: center;
   align-items: center;
   padding-right: 50px;
   margin-top: 50px;
   height: 400px;
-
+  background-color: black;  
 }
+
 #sobremi{
   margin-top: 50px;
   text-align: center;
-  color:black;
+  color:white;
   font-size: 30px;
 }
 .texto{
   text-align: justify;
-  color: black;
+  color: white;
   margin: 40px;
   font-size: 25px;
 }
@@ -231,19 +234,8 @@ le doy medidas a la caja que contiene la foto PILAS*/
 
 
 
-.btn-descargas{
-  display: block;
-  width: 80px;
-  height: 80px;
-  background-color: #fff;
-  border-radius: 50px;
-  text-align: center;
-  line-height: 80px;
-  font-size: 30px;
-  transition: all 400ms ease-out;
-}
-.btn-descargas:hover{
-  transform: scale(1.1);
-}
+
+
+
 
 

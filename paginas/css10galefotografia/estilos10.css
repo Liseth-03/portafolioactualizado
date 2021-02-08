@@ -6,9 +6,9 @@
 
 body{
  
+  background-color: black;
   max-width: 100%;
   margin-left: 0;
-  background-color:white;
   font-family:Espera-Bold;
 }
 
@@ -34,6 +34,7 @@ ul, ol{
   float: left;
 }
 .nav li ul{
+  font-family:Espera-Bold;
   display:none;
   position: absolute;
   min-width: 140px;
@@ -75,6 +76,7 @@ ul, ol{
 	width: 100%;
 }
 .header a{
+  font-family:Espera-Bold;
 	color: aliceblue;
 	text-decoration: none;
 }
@@ -91,12 +93,14 @@ ul, ol{
 
 
 .navigation ul {
+  font-family:Espera-Bold;
 	margin: 0;
 	padding: 0;
 	list-style: none;
 }
 
 .navigation ul li{
+  font-family:Espera-Bold;
 	display: inline-block;
 }
 
@@ -120,252 +124,125 @@ img{
 	width: 50%;
 }
 
-h2{
-    font-size: 100px;
-    margin-top: 200px;
-    text-align: center;     
+::-webkit-scrollbar{
+  width: 0px;
+  height:60px;
+  background-color:black ;
+}
+::-webkit-scrollbar-track-piece{
+  height: 10px;
+  background-color:white;
+
+}
+::-webkit-scrollbar:hover{
+  background-color: white;
 }
 
 
 
 
 
-/*ilustraciones*/
+
+
+
+
+
+
+
+/*fotografias*/
 
 
 .titulo{
+
   background-color:black;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 130px;
-  height: 250;
+  height: 50px;
 }
 
 .titulo1{
+  font-family:Espera-Bold;
   color: white;
   font-size: 30px;
-  margin-top: 5px;
   text-align: center;
 }
-
-.subtitulo1{
-  margin-top: 900px;
-  color: white;
-  font-size: 30px;
-  margin-top: 5px;
-  text-align: center;
-}
-.titulo11{
-  margin-top: 900px;
-  color: black;
-  font-size: 30px;
-  margin-top: 5px;
-  text-align: center;
-}
-
-
-
-
-
-.imagenesjjj{
-  color: white;
-  font-size: 30px;
-  margin-top: 5px;
-  text-align: center;
-}
-
-.subtitulo2{
-  margin-top: 900px;
-  color: white;
-  font-size: 30px;
-  margin-top: 5px;
-  text-align: center;
-}
-.titulo111{
-  margin-top: 900px;
-  color: black;
-  font-size: 30px;
-  margin-top: 5px;
-  text-align: center;
-}
-
-
-
-/*slider*/
-
-
-.fotos{
-
-  height: 280px;
-}
-
-.subtitulo1{
-  color: black;
-  margin-top: 30px;
-}
-
-
-.subtitulo2{
-  margin-top: 50px;
-}
-.fotos2{
-  background-color: #fff;
-  margin-top: 70px;
-  height: 500px;
-}
-.titulo2{
-  font-size: 30px;
-  color: black;
-}
-
-
-
-
-
-
-
-
-
 
 
 .imagenesjj{
-  margin-top: 20px;
-  background-color: white;
-  height: 400px;
-}
-
-
-
-.row > .column {
-  padding: 0 8px;
-}
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Create four equal columns that floats next to eachother */
-.column {
+  background-color: black;
+  margin-top: 0%;
   display: flex;
-  justify-content:center;
-
-  margin-top: 10px;
-  width: 25%;
+  justify-content: center;
+  align-items: center;
+  
+  height: 487px;
 }
 
-/* The Modal (background) */
-.modal {
-  display: none;
-  position: fixed;
-  z-index: 1;
-  padding-top: 100px;
-  left: 0px;
- 
-  top: 100px;
-  width: 100%;
-  height: 100%;
-  overflow: auto;
-  background-color: rgb(0, 0, 0);
+
+
+.botones{
+  border-radius: 20px;
+  padding: 40px;
+  position: absolute;
+  display: flex;
+}
+button{
+  border-radius: 10px;
+  background-color: blueviolet;
 }
 
-/* Modal Content */
-.modal-content {
-  position: relative;
+.caja{
+  position: absolute;
   background-color: black;
-  margin: auto;
-  padding: 0;
-  width: 100%;
-  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
 }
 
-/* The Close Button */
-.close {
-  color: white;
+.caja img{
+  object-fit: cover;
+}
+
+.hover{
   position: absolute;
-  top: 10px;
-  right: 25px;
-  font-size: 50px;
-  font-weight: bold;
+}
+.hover h1{
+  font-family:Espera-Bold;
+  font-size:15px;
 }
 
-.close:hover,
-.close:focus {
-  color: white;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-/* Hide the slides by default */
-.mySlides {
-  background-color: black;
-  margin-left: 300px;
-  width: 100%;
-  display: none;
-}
-
-/* Next & previous buttons */
-.prev,
-.next {
-  cursor: pointer;
+.caja .hover{
   position: absolute;
-  top: 24%;
-  width: auto;
-  padding: 10px;
-  margin-top: -50px;
-  color: #43ebc6;
-  font-weight: bold;
-  font-size: 50px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-  -webkit-user-select: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover,
-.next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
-}
-
-/* Number text (1/3 etc) */
-.numbertext {
-  color: black;
-  font-size: 30px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-/* Caption text */
-.caption-container {
-  text-align: center;
-  background-color:#43089E;
-  padding: 2px 16px;
+.hover h1:hover{
+  font-family:Espera-Bold;
   color: white;
+  text-shadow: 2px 2px 2px #7F3BEB;
+  font-size: 2.5em;
+  text-transform: uppercase;
 }
 
-img.demo {
-  opacity: 0.6;
+.subtitulos{
+  font-family:Espera-Bold;
+  color: #fff;
+  font-size: 20px;
 }
 
-.active,
-.demo:hover {
-  opacity: 1;
-}
 
-img.hover-shadow {
-  transition: 0.3s;
-}
 
-.hover-shadow:hover {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
+
+
+
+
+
+
+
+
+
+

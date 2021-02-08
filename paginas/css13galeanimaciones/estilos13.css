@@ -198,3 +198,17 @@ img{
   font-size: 20px;
 }
 
+::-webkit-scrollbar{
+  width: 0px;
+  height:60px;
+  background-color:black ;
+}
+::-webkit-scrollbar-track-piece{
+  height: 10px;
+  background-color:white;
+
+}
+::-webkit-scrollbar:hover{
+  background-color: white;
+}
+
